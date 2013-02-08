@@ -33,6 +33,12 @@
             <scope>provided</scope>
             <type>pom</type>
         </dependency>
+        <dependency>
+            <groupId>org.jboss.arquillian.extension</groupId>
+            <artifactId>arquillian-persistence-impl</artifactId>
+            <version>1.0.0.Alpha5</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
